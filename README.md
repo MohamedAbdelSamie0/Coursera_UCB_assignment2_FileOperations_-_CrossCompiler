@@ -1,3 +1,13 @@
+# Assignment deliverables
+
+This repo contains a C application "writer" **(finder-app/writer.c)** which takes 2 arguments as an input, file path and String to be written.
+
+It provides system logging, **syslog**, for error and debugging purposes.
+
+The application is compiled using a Makefile with the capability for **cross-compiling** in case the gnu make variable **cross_compile** is specified in the system environment, otherwise an application will be generated for the native build platoform.
+
+Testing scripts and **Self-hosted Runners** are used to make sure everything works perfectly with a certain level of error handling.
+
 # aesd-assignments
 This repo contains public starter source code, scripts, and documentation for Advanced Embedded Software Development (ECEN-5713) and Advanced Embedded Linux Development assignments University of Colorado, Boulder.
 
